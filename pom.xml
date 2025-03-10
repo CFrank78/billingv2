@@ -23,11 +23,11 @@
   <!-- Dependencias -->
   <dependencies>
     <!-- Dependencia de Spring Boot (si usas Spring Boot, de lo contrario puedes removerla) -->
-    <dependency>
+  <!--  <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-web</artifactId>
       <version>2.5.5</version>
-    </dependency>
+    </dependency>-->
 
     <!-- Conector de PostgreSQL -->
     <dependency>
@@ -60,7 +60,7 @@
       </plugin>
 
       <!-- Plugin para empaquetar la aplicación (Spring Boot) -->
-      <plugin>
+     <!-- <plugin>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
         <version>2.5.5</version>
@@ -71,7 +71,7 @@
             </goals>
           </execution>
         </executions>
-      </plugin>
+      </plugin>-->
 
       <!-- Plugin para ejecutar pruebas -->
       <plugin>
